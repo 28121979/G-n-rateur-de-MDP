@@ -10,8 +10,38 @@
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: url(images/background\ \(2\).jpg) center/cover;
+    /* background: url(images/background\ \(2\).jpg) center/cover; */
   }
+
+  .div_bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    
+  }
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;	
+    
+  }
+  .logo {
+    width: 100%;
+    margin: 0, auto;
+    padding: 60px 0;
+    color: lightblue;
+    font-size: 5em;
+    text-align: center;
+  /* 	text-transform: uppercase; */
+    font-family: monospace;
+    background-color: transparent;
+    box-sizing: content-box;
+    z-index: 999999;
+    
+  }
+
   .app {
     background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
     margin: 0 10px;
