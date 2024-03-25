@@ -1,5 +1,5 @@
 
-<div align="center"><h1>Générateur de Mot de Passe 🛠️</h1>
+<div align="center"><h1>Générateur de Mot de Passe 🛠️</h1></div>
 
 ## <div align="center">🟣 Bonjour, voici mon  portfolio [clique ici 👉 ](https://28121979.github.io/PortfolioV2/) 🟣</div>
 
