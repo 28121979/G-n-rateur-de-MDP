@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
+    <div class="container ">
+      <div class="row">
+        <div class="col">
     <div class="app">
       <input
         type="text"
@@ -25,12 +27,12 @@
         min="4"
         max="24"
         value="8"
-        oninput="document.getElementById('display-password-length').value = this.value"
-      />
-      <input type="text" id="display-password-length" value="8" readonly >
+        oninput="document.getElementById('display-password-length').value = this.value">
+      <input type="text" class="number" id="display-password-length" value="12" readonly>
     </div>
 
     <div class="checkbox-container">
+      <div></div>
         <input type="checkbox" id="lowercase" checked>
         <label for="lowercase">a-z</label>
 
@@ -45,6 +47,9 @@
     </div>
 
     <button id="generateButton">Générer mot de passe</button>
+  </div>
+      </div>
+  </div>
 
     <script src="index.js"></script>
   </body>

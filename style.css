@@ -28,6 +28,13 @@
     font-size: 1.5rem;
     width: 100%;
   }
+
+.number {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
   .range-container {
     margin: 20px 0;
     ;
@@ -67,7 +74,7 @@
     transform: scale(1.2) translateY(-9px);
   }
   #display-password-length {
-    width: 30px;
+    width: 70px;
     background: transparent;
     border: none;
   }
